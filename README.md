@@ -37,13 +37,6 @@ Users should be able to:
 
 ## My process
 
-- Switching themes with React state and updating the `<html>` element with `data-theme`
-- Using `useEffect` for DOM side effects
-- Using functional state updates with `prev` when the new state depends on the current state
-- Building Active, Inactive, and All filters with `filter()`
-- Using union types for controlled filter values such as `"all"`, `"active"`, and `"inactive"`
-- Using CSS custom properties and semantic color tokens for light and dark themes
-
 ### Built with
 
 - Semantic HTML5 markup
@@ -56,6 +49,13 @@ Users should be able to:
 - [Tailwind CSS](https://tailwindcss.com/) - CSS framework
 
 ### What I learned
+
+- Switching themes with React state and updating the `<html>` element with `data-theme`
+- Using `useEffect` for DOM side effects
+- Using functional state updates with `prev` when the new state depends on the current state
+- Building Active, Inactive, and All filters with `filter()`
+- Using union types for controlled filter values such as `"all"`, `"active"`, and `"inactive"`
+- Using CSS custom properties and semantic color tokens for light and dark themes
 
 ## Author
 
