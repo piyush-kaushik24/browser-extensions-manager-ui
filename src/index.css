@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* Neutral */
+  --color-neutral-900: hsl(227 75% 14%);
+  --color-neutral-800: hsl(226 25% 17%);
+  --color-neutral-700: hsl(225 23% 24%);
+  --color-neutral-600: hsl(226 11% 37%);
+  --color-neutral-300: hsl(0 0% 78%);
+  --color-neutral-200: hsl(217 61% 90%);
+  --color-neutral-100: hsl(0 0% 93%);
+  --color-neutral-0: hsl(200 60% 99%);
+
+  /* Red */
+  --color-red-400: hsl(3 86% 64%);
+  --color-red-500: hsl(3 71% 56%);
+  --color-red-700: hsl(3 77% 44%);
+
+  /* Font */
+  --font-noto-sans: "Noto Sans", sans-serif;
+
+  /* Semantic colors */
+  --color-background: var(--color-neutral-200);
+  --color-surface: var(--color-neutral-0);
+  --color-text: var(--color-neutral-600);
+  --color-heading: var(--color-neutral-900);
+  --color-button-text: var(--color-neutral-800);
+  --color-border: var(--color-neutral-300);
+  --color-toggle-on: var(--color-red-700);
+  --color-toggle-off: var(--color-neutral-600);
+  --color-toggle-theme: var(--color-neutral-100);
+  --color-focus: var(--color-red-500);
+}
+[data-theme="dark"] {
+  --color-background: var(--color-neutral-900);
+  --color-surface: var(--color-neutral-800);
+  --color-text: var(--color-neutral-300);
+  --color-heading: var(--color-neutral-0);
+  --color-button-text: var(--color-neutral-0);
+  --color-border: var(--color-neutral-600);
+  --color-toggle-on: var(--color-red-400);
+
+  --color-toggle-off: var(--color-neutral-600);
+  --color-toggle-theme: var(--color-neutral-700);
+  --color-focus: var(--color-red-700);
+}
+
+body {
+  font-family: var(--font-noto-sans);
+  background-color: var(--color-background);
+}
