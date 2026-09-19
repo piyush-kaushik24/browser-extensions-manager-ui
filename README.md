@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/piyush-kaushik24/browser-extensions-manager-ui)
-- Live Site URL: [Browser extensions manager UI ](<>)
+- Live Site URL: [Browser extensions manager UI ](https://browser-extensions-manager-ui-nine.vercel.app/)
 
 ## My process
 
